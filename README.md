@@ -1,1 +1,2 @@
-"# seansingh" 
+# awsplugin
+Salesforce aws plugin
