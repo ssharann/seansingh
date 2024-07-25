@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>crm.salesforce</groupId>
-	<artifactId>awsplugin</artifactId>
+	<artifactId>seansingh</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>awsplugin</name>
+	<name>seansingh</name>
 	<description>Salesforce project </description>
 	<url/>
 	<licenses>
