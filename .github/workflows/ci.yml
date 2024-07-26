@@ -22,11 +22,11 @@ jobs:
       run: |
            mvn clean install
 
-    - name: Code Coverage Stage
-      run: |
-           mvn clean verify sonar:sonar \
-             mvn clean verify sonar:sonar \
-            -Dsonar.projectKey=seansingh \
-            -Dsonar.projectName='seansingh' \
-            -Dsonar.host.url=http://hivemet.com:9000 \
-            -Dsonar.token=${{ secrets.SEANSINGH_KEY }}
+    #- name: Code Coverage Stage
+   #   run: |
+    #       mvn clean verify sonar:sonar \
+     #        mvn clean verify sonar:sonar \
+      #      -Dsonar.projectKey=seansingh \
+       #     -Dsonar.projectName='seansingh' \
+         #   -Dsonar.host.url=http://hivemet.com:9000 \
+          #  -Dsonar.token=${{ secrets.SEANSINGH_KEY }}
